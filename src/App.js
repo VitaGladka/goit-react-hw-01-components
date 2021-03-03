@@ -16,9 +16,9 @@ const { name, tag, location, avatar, stats } = profileUsers;
 export default function App() {
   return (
     <div className="App">
-      <h1>Homework №1</h1>
+      <h1 className="title">Homework №1</h1>
       <Profile name={name} tag={tag} location={location} avatar={avatar} stats={stats} />
-      <Statistics title="Upload stats" stats={statisticalData} />
+      <Statistics tittle="Upload stats" stats={statisticalData} />
       <Friendlist friends={friends} />
       {/* <TransactionHistory items={transitions} /> */}
     </div>

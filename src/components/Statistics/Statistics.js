@@ -3,13 +3,13 @@ import s from "./Statistics.module.css";
 import PropTypes from "prop-types";
 
 const Statistics = ({ tittle, stats }) => {
-  // console.log(tittle, stats);
+  console.log(tittle, stats);
   return (
     <>
       <section className={s.statistics}>
-        {tittle && <h2 className={s.title}>Upload stats</h2>}
+        {tittle && <h2 className={s.tittle}>{tittle}</h2>}
 
-        <ul className={s.statList}>
+        <ul className={s.statsList}>
           {stats.map((el) => {
             const { id, label, percentage } = el;
             return (

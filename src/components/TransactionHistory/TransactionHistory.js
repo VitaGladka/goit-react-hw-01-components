@@ -1,9 +1,11 @@
 import React from "react";
+import PropTypes from "prop-types";
+import s from "./TransactionHistory.module.css";
 
 const TransactionHistory = () => {
   return (
     <>
-      <h2>TransactionHistory</h2>
+      {/* <ul class="friend-list"></ul> */}
     </>
   );
 };

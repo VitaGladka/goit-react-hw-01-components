@@ -1,0 +1,70 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  outline: 1px solid grey;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgb(226, 225, 225);
+}
+
+.avatar {
+  margin-top: 10px;
+  width: 200px;
+}
+
+.name {
+  margin: 0;
+
+  font-size: 24px;
+  font-weight: 700;
+  color: cornflowerblue;
+}
+
+.tag {
+  margin-bottom: 10px;
+  margin-top: 0;
+
+  color: rgb(61, 61, 61);
+}
+
+.location {
+  color: rgb(61, 61, 61);
+  margin-top: 0;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding-left: 0;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 11px;
+}
+
+.label {
+  display: block;
+
+  font-size: 12px;
+
+  margin-bottom: 5px;
+}
+
+.quantity {
+  display: block;
+
+  color: cornflowerblue;
+  font-size: 14px;
+  font-weight: 700;
+}
