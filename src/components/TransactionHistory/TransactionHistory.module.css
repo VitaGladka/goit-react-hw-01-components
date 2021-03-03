@@ -1,0 +1,26 @@
+.transactionHistory {
+  outline: #2e2e2e 16px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  font-family: "Century Gothic";
+  text-align: justify;
+  border-spacing: 5px;
+  color: #cccccc;
+}
+
+
+.title {
+  color: #18181a;
+  font-style: bold;
+  font-size: 24px;
+  align-items: baseline;
+}
+
+td {
+  background: #2e2e2e;
+  padding: 10px;
+}
